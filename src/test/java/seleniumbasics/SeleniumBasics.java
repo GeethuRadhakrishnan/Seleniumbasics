@@ -102,8 +102,7 @@ public class SeleniumBasics {
         Assert.assertEquals(actualText,expectedText,"Invalid message found");
     }
 @Test
-    public void TC_005_submitFormWithoutFilling()
-    {
+    public void TC_005_submitFormWithoutFilling() {
         driver.get("https://selenium.obsqurazone.com/form-submit.php");
         //WebElement firstName=driver.findElement(By.xpath("//input[@id='validationCustom01']"));
         WebElement submitButton=driver.findElement(By.xpath("//button[contains(@type,'submit')]"));
